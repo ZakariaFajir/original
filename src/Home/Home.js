@@ -3,7 +3,7 @@ import './Home.css';
 import img from '../Images/img1.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import '../../../node_modules/swiper/swiper-bundle.min.css';
+import 'swiper/swiper-bundle.min.css';
 
 
 const Home = () => {
