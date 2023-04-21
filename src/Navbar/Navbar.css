@@ -1,0 +1,51 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 8px 11px rgb(186, 186, 186);
+    padding: 20px 100px;
+    transition: 0.5s;
+}
+section {
+    padding: 4.5rem 0 1.5rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+}
+
+.logo .bx {
+    font-size: 24px;
+    color: orange;
+}
+.navbar {
+    display: flex;
+    column-gap: 0.5rem;
+}
+.navbar a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    padding: 0.5rem 1rem;
+}
+.navbar a:hover, .navbar .home-active {
+    color: #fff;
+    background-color: black;
+    border-radius: 5rem;
+    transition: background 0.5s ease;
+}
+#menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
